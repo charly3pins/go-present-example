@@ -1,0 +1,76 @@
+Learning Go present
+6 October 2020
+
+Crash Bandicoot
+crash.bandicoot@gmail.com
+
+* Hello World
+
+I'm a slide
+
+* Text formatting
+
+normal vs `highlighted`
+*bold*
+_italic_
+*multiple*bold*text*
+_multiple_italic_text_
+
+Grocery list for the gopher:
+
+- go routines
+- garbage collector
+- Rust
+
+* Text formatting
+
+Surface
+
+** Subsection
+
+The Gopher(1) is diving the subsection.
+
+*** Sub-subsection
+
+Another Gopher(2) is diving more into the sub-subsection!
+
+**** Sub-subsection
+
+The most brave Gopher(3) is diving deeper into the sub-sub-subsection!
+
+* Images
+
+.image /images/gopher.jpeg 200 200
+.image /images/gopher.jpeg _ 300
+
+* Links
+
+.link https://charly3pins.dev charly3pins website
+.link https://charly3pins.dev
+
+* Code
+
+Normal
+.code hello.go
+
+Highlighted code
+.code hello-hl.go
+
+* Code
+
+Partial code
+.code hello-hl-partial.go /START OMIT/,/END OMIT/
+
+* Playable code
+
+.play hello.go
+
+* Presenter notes
+
+The gophers like to eat a lot.
+
+: they eat more than half their body weight in food each day
+
+They eat basically plants.
+
+: typically gnaws the roots of a plant just beneath the soil, so the damage isn’t seen
